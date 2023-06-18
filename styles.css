@@ -285,7 +285,13 @@ footer i {
     }
 }
 
+
 @media only screen and (max-width: 1300px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    
     .hero-image {
         display: none;
     }
